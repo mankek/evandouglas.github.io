@@ -1,45 +1,234 @@
-body {
-    width: 70%;
-    margin-left:60px;
-    margin-right: 60px;
-    margin-top: 20px;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #D2562D;
     text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: Georgia, serif;
+    line-height: 2em;
+    color: #C9CFD6;
+    background: #264059 url('images/body.gif') top left repeat-x;
+    font-size: 11.5pt;
+  }
+  
+  br.clear-all {
+    clear: both;
+  }
+  
+  h1,h2,h3,h4 {
+    letter-spacing: -1px;
+  }
+  
+  h2 {
     font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
+  }
+  
+  h2,h3,h4 {
+    color: #FFFFFF;
+    margin-bottom: 0.75em;
+  }
+  
+  h3 {
+    font-size: 1.25em;
+  }
+  
+  h4 {
+    font-size: 1em;
+  }
+  
+  img.float-left {
+    margin: 5px 20px 20px 0px;
+    float: left;
+  }
+  
+  img.float-top {
+    margin: 5px 0px 20px 0px;
+  }
+  
+  p {
+    margin-bottom: 1.75em;
+  }
+  
+  ul {
+    margin-bottom: 1.75em;
+  }
+  
+  ul h4 {
+    margin-bottom: 0.3em;
+  }
+  
+  #column1 {
+    width: 510px;
+    margin: 0px 0px 0px 215px;
+    padding: 0px;
+  }
+  
+  #column2 {
+    width: 200px;
+    padding: 0px;
+    float: left;
+  }
+  
+  #column3 {
+    width: 200px;
+    float: right;
+    padding: 0px;
+  }
+  
+  #content1 {
+    overflow: hidden;
+    margin: 0px 0px 15px 0px;
+  }
+  
+  #content2 {
+    overflow: hidden;
+    margin: 0px 0px 15px 0px;
+  }
+  
+  #content3 {
+    overflow: hidden;
+  }
+  
+  #feature-box {
+    position: relative;
+    padding: 0px;
+    width: 980px;
+    background: #FFFFFF;
+    margin: 0px 0px 0px 0px;
+    height: 220px;
+  }
+  
+  #header {
+    height: 115px;
+    position: relative;
+    padding: 20px;
+    width: 940px;
+  }
+  
+  #inner-container {
+    color: #383838;
+    width: 940px;
+    padding: 40px 20px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    background: #FFFFFF;
+  }
+  
+  #inner-container .features {
+    padding-left: 0;
     list-style: none;
-}
+  }
+  
+  #inner-container .features li {
+    padding: 10px 0px 10px 0px;
+    clear: both;
+  }
+  
+  #inner-container a {
+    color: #121212;
+  }
+  
+  #inner-container h2, #inner-container h3, #inner-container h4 {
+    color: #141414;
+  }
+  
+  #inner-container strong {
+    color: #1F1F1F;
+  }
+  
+  #inner-container ul {
+    list-style: none;
+  }
+  
+  #inner-container ul li {
+    padding: 5px 0px 5px 0px;
+    border-top: solid 1px #D6D6D6;
+  }
+  
+  #inner-container ul li.first-item {
+    padding-top: 0;
+    border-top: 0;
+  }
+  
+  #main-logo {
+    text-align: center;
+    height: 84px;
+    position: relative;
+    line-height: 84px;
+    margin: -10px auto;
+  }
+  
+  #main-logo a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  #main-logo h1 {
+    font-size: 2em;
+  }
+  
+  #main-menu {
+    width: 980px;
+    background: #44AA48 url('../site-assets/images/menu.gif') top left repeat-x;
+    border-top: solid 1px #B1F0B3;
+    border-bottom: solid 1px #2C792F;
+    bottom: 0;
+    left: 0;
+    line-height: 51px;
+    height: 51px;
+    position: absolute;
+  }
+  
+  #main-menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  #main-menu ul {
+    list-style: none;
+    width: 980px;
+    text-align: center;
+  }
+  
+  #main-menu ul li {
+    display: inline;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  #outer-container {
+    position: relative;
+    width: 980px;
+    margin: 40px auto 0px auto;
+  }
+  
+  #search-form input.btn {
+    color: #FFFFFF;
+    padding: 6px;
+    border: 0px;
+    margin-left: 1em;
+    background: #D2562D;
+  }
+  
+  #search-form input.txt {
+    padding: 5px;
+    border: solid 1px #D6D6D6;
+  }
+  
+  #site-credits {
+    text-align: center;
+    padding: 30px 0px 55px 0px;
+  }
+  
+  #site-credits a {
+    color: #C9CFD6;
+  }

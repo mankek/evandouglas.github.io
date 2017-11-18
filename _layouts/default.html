@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
   <title>{{ page.title }}</title>
@@ -8,41 +7,53 @@
 </head>
 
 <body>
-  <nav>
-    <ul class="nav nav-pills">
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/about">About</a>
-      </li>
-      <li>
-        <a href="/cv">CV</a>
-      </li>
-      <li>
-        <a href="/blog">Blog</a>
-      </li>
-    </ul>
-  </nav>
-  <div class="container">
+  <div id="outer-container">
+    <div id="header">
+      <div id="main-logo">
+        <h1>Evan Douglas</h1>
+      </div>
+      <div id="main-menu">
+        <ul>
+          <li class="first-item">
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/cv">CV</a>
+          </li>
+          <li class="last-item">
+            <a href="/blog">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-    {{ content }}
+    <div class="container">
 
+      {{ content }}
+
+    </div>
+    <!-- /.container -->
+    <div id="site-credits">
+      <footer>
+        <table style="margin-left:auto; margin-right:auto; width:auto; text-align:center;" class="table">
+          <tr>
+            <td class="col-xs-3" style="width:30%">
+              <a href="mailto:eadouglas97@gmail.com">Personal Email</a>
+            </td>
+            <td class="col-xs-3" style="width:30%">
+              <a href="mailto:douglasea@msoe.edu">School Email</a>
+            </td>
+            <td class="col-xs-3" style="width:30%">
+              <a href="https://github.com/evandouglas">github.com/evandouglas</a>
+            </td>
+          </tr>
+        </table>
+      </footer>
+    </div>
   </div>
-  <!-- /.container -->
-  <footer>
-    <ul>
-      <li>
-        <a href="mailto:eadouglas97@gmail.com">Personal Email</a>
-      </li>
-      <li>
-        <a href="mailto:douglasea@msoe.edu">School Email</a>
-      </li>
-      <li>
-        <a href="https://github.com/evandouglas">github.com/evandouglas</a>
-      </li>
-    </ul>
-  </footer>
 </body>
 
 </html>
