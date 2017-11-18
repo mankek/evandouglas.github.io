@@ -175,6 +175,9 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9.7)
     mercenary (0.3.6)
+    merlot (0.1.2)
+      posix-spawn (~> 0.3.11)
+      prawn (~> 2.1.0)
     mini_portile2 (2.3.0)
     minima (2.1.1)
       jekyll (~> 3.3)
@@ -187,6 +190,11 @@ GEM
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.0)
       forwardable-extended (~> 2.6)
+    pdf-core (0.6.1)
+    posix-spawn (0.3.13)
+    prawn (2.1.0)
+      pdf-core (~> 0.6.1)
+      ttfunk (~> 1.4.0)
     public_suffix (2.0.5)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
@@ -204,6 +212,7 @@ GEM
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
+    ttfunk (1.4.0)
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
     tzinfo (1.2.4)
@@ -215,6 +224,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  merlot
 
 BUNDLED WITH
    1.16.0
