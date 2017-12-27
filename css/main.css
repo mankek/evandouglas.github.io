@@ -114,47 +114,47 @@
     width: 940px;
   }
   
-  #inner-container {
+  .inner-container {
     color: #383838;
     width: 940px;
-    padding: 40px 20px 0px 20px;
+    padding: 40px 20px 40px 20px;
     margin: 0px 0px 0px 0px;
     position: relative;
     background: #FFFFFF;
   }
   
-  #inner-container .features {
+  .inner-container .features {
     padding-left: 0;
     list-style: none;
   }
   
-  #inner-container .features li {
+  .inner-container .features li {
     padding: 10px 0px 10px 0px;
     clear: both;
   }
   
-  #inner-container a {
+  .inner-container a {
     color: #121212;
   }
   
-  #inner-container h2, #inner-container h3, #inner-container h4 {
+  .inner-container h2, .inner-container h3, .inner-container h4 {
     color: #141414;
   }
   
-  #inner-container strong {
+  .inner-container strong {
     color: #1F1F1F;
   }
   
-  #inner-container ul {
+  .inner-container ul {
     list-style: none;
   }
   
-  #inner-container ul li {
+  .inner-container ul li {
     padding: 5px 0px 5px 0px;
     border-top: solid 1px #D6D6D6;
   }
   
-  #inner-container ul li.first-item {
+  .inner-container ul li.first-item {
     padding-top: 0;
     border-top: 0;
   }
