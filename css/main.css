@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
   }
-  
+  .post img{
+    width:340px;
+  }
   a {
     color: #D2562D;
     text-decoration: underline;
