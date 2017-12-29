@@ -21,7 +21,7 @@ My first thought was of the civil war in Skyrim, and I typically lean towards th
 As a first project, this bear design would be fairly simple (as it does not require shading)
 
 
-![](/site-assets/images/Stormcloak.jpg)
+![](/site-assets/images/Stormcloak.JPG)
 
 ## Second Project
 I have always been interested in Norse Mythology, and two of the most iconic symbols from Norse Mythology are Huginn and Muninn. 
@@ -32,4 +32,4 @@ They are Odin's two ravens, and there are many different designs to visualize th
 
 Design above, Result Below
 
-![](/site-assets/images/HuginnMuninn.jpg)
+![](/site-assets/images/HuginnMuninn.JPG)
