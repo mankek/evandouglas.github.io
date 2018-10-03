@@ -1,3 +1,3 @@
 evandouglas.github.io
 =====================
-figuring out github pages
+My first personal website
