@@ -1,5 +1,8 @@
 
 # evandouglas.github.io
+
+[It is live here](evandouglas.github.io)
+
 My first personal website
 
 - [Setup Instructions](#setup-instructions)
