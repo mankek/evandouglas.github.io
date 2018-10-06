@@ -8,22 +8,23 @@ My first personal website
 - [Setup Instructions](#setup-instructions)
 - [Running it locally](#running-it-locally)
 
-## Setup Instructions
+## Installation
 
-If you don't have Ruby installed, install [Ruby 2.1.0 or higher](https://www.ruby-lang.org/en/downloads/)
+### Setup Instructions
 
-Install Bundler:
+If you want to build this locally, follow instructions below
 
-```gem install bundler```
+#### Jekyll
 
-Install Jekyll and other dependencies from the gemfile
+```shell
+gem install jekyll
+```
 
-```bundle install```
+#### NodeJS
 
-## Running it locally
+Download and open the [NodeJS installer](https://nodejs.org/en/)
 
-If, for some reason you want to build locally:
+### Running It Locally
 
-```bundle exec jekyll serve```
-
-Then navigate to http://localhost:4000
+1. Inside the directory run `bundle install` and `npm install`
+2. run `bundle exec jekyll serve`

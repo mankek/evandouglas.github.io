@@ -18,26 +18,21 @@ layout: compress
 
     {% include header.html %}
 
-    <div class="hero lazyload" data-bg="{{site.url}}/assets/img/milwaukee.jpg">
+    <div class="hero--small">
       <div class="hero__wrap">
-        <h1 class="hero__title">Evan Douglas</h1>
-        <p class="hero__meta">Software Engineer and Full-Stack Developer</p>
+        <h1 class="hero__title">{{ page.title }}</h1>
       </div>
     </div>
-
     <main class="site__content">
-      <section class="blog">
-        <div class="container">
-          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
 
-            {% for post in site.posts %}
-              {% include card.html %}
-            {% endfor %}
+      <div class="container">
+        <div class="page-content">
 
-            <!-- {% include pagination.html %} -->
-          </div>
+          {{ content }}
+
         </div>
-      </section>
+      </div>
+
     </main>
 
     {% include footer.html %}
