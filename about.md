@@ -5,8 +5,7 @@ permalink: /about/
 ---
 
 <p>
-My name is Evan Douglas. I really enjoy programming and solving problems. I am working to always grow my skills, and keep opening my eyes to new things.
-As an engineer, I believe that I should push myself and have no fear of the "unknown". This is a pathology that I try to bake into my decisions every day.
+My name is Evan Douglas. I really getting swole and eating nothing but pasta and tacos.
 </p>
 
 <p>
